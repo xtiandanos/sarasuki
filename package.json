@@ -17,6 +17,8 @@
     "build:n17": "react-scripts --openssl-legacy-provider build",
     "changelog": "auto-changelog --starting-version 4.1.0 --commit-limit false --hide-credit",
     "eject": "react-scripts eject",
+    "checkTs": "tsc --noEmit",
+    "eslint": "eslint --ext js,ts,tsx --max-warnings=0",
     "lint": "yarn eslint -- src",
     "lint:fix": "yarn eslint -- --fix src",
     "lint:css": "stylelint src/**/*.css",
