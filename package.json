@@ -1,17 +1,8 @@
 {
-  "name": "@coreui/coreui-free-react-admin-template",
-  "version": "4.1.1",
-  "description": "CoreUI Free React Admin Template",
-  "homepage": ".",
-  "bugs": {
-    "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:coreui/coreui-free-react-admin-template.git"
-  },
-  "license": "MIT",
-  "author": "The CoreUI Team (https://github.com/orgs/coreui/people)",
+  "name": "@sarisuki/-oms-portal",
+  "version": "0.1.0",
+  "description": "SariSuki OMS Portal",
+  "private": true,
   "scripts": {
     "build": "react-scripts build",
     "build:n17": "react-scripts --openssl-legacy-provider build",
@@ -54,6 +45,7 @@
     "typescript": "^4.5.5"
   },
   "devDependencies": {
+    "@types/enzyme": "^3.10.11",
     "auto-changelog": "~2.3.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
